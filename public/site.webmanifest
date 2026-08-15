@@ -1,0 +1,17 @@
+{
+  "name": "Rinsha & Sreeni — Wedding Reception",
+  "short_name": "Rinsha & Sreeni",
+  "description": "Wedding reception invitation for Rinsha and Sreeni, 17 September 2026, Chennai.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f8f2e7",
+  "theme_color": "#183d33",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

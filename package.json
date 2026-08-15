@@ -1,0 +1,27 @@
+{
+  "name": "rinsha-sreeni-wedding-invitation",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node --require ./scripts/patch-network.cjs ./node_modules/vite/bin/vite.js",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "24.13.3",
+    "@types/react": "19.2.18",
+    "typescript": "6.0.3",
+    "vite": "8.2.1",
+    "vitest": "4.1.10"
+  }
+}
